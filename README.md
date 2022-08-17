@@ -15,10 +15,18 @@ CODE
 
 
 void setup() {
-  Serial.begin(9600);
-  pinMode(A0, INPUT);
-  pinMode(5, OUTPUT);
-  pinMode(6, OUTPUT);
+ 
+ 
+ Serial.begin(9600);
+ 
+ 
+ pinMode(A0, INPUT);
+ 
+ 
+ pinMode(5, OUTPUT);
+ 
+ 
+ pinMode(6, OUTPUT);
 }
  
 void loop() {
